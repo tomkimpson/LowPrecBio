@@ -1,0 +1,31 @@
+# Hidden files (OS, IDE, caches, AI assistant configs)
+.*
+!.gitignore
+!.github/
+
+# Julia
+*.jl.cov
+*.jl.mem
+
+# Results data (regenerable; see results/README.md)
+results/**/*.jld2
+results/**/*.csv
+results/**/*.json
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Editor / compiled / misc
+*.swp
+*~
+*.o
+*.a
+*.zip
+out.txt

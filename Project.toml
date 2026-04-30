@@ -1,0 +1,30 @@
+name = "LowPrecBio"
+uuid = "89cfda83-71f8-4471-85dc-42d99b9ea552"
+authors = ["Tom Kimpson"]
+version = "0.1.0"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StochasticRounding = "3843c9a1-1f18-49ff-9d99-1b4c8a8e97ed"
+
+[compat]
+CairoMakie = "0.15.9"
+LaTeXStrings = "1.4.0"
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
