@@ -1,12 +1,9 @@
 # LowPrecBio.jl
 
+[![arXiv](https://img.shields.io/badge/arXiv-2605.00479-b31b1b.svg)](https://arxiv.org/abs/2605.00479)
+
 Reduced-precision arithmetic (FP16/bfloat16) with stochastic rounding for the
 Stochastic Simulation Algorithm (Gillespie SSA), applied to biochemical kinetics.
-
-Companion code for the paper:
-
-> **Reduced-precision stochastic simulation for biochemical kinetics.**
-> Tom Kimpson et al. (2026). `docs/paper/reduced_precision_mathbio.pdf`.
 
 ## Install
 
